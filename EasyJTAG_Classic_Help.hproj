@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <section name="Options" type="ConfigManager.Options, ConfigManager, Version=1.0.3.0, Culture=neutral, PublicKeyToken=35cd42e4c0e8d43e" allowLocation="true" allowDefinition="Everywhere" allowExeDefinition="MachineToApplication" overrideModeDefault="Allow" restartOnExternalChanges="true" requirePermission="true" />
+  </configSections>
+  <Options>
+    <ImageSize MaximumHeight="480" MaximumWidth="640" Resize="100" />
+    <Storing DefaultFileName="[Top Object Name]" ImageFolder="images" ImageFormat="Portable Network Graphics (*.png)" TextFolder="" AutomaticNameEnabled="false" />
+    <DocType DefaultDocType="strict" DefaultUseXhtml="false" />
+  </Options>
+</configuration>
