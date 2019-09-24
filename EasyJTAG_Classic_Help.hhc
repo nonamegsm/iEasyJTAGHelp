@@ -26,6 +26,16 @@
                 </OBJECT>
         </UL>
     <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="JTAG Operations">
+            <param name="Local" value="JTAG_Operations.htm">
+        </OBJECT>
+        <UL>
+            <LI> <OBJECT type="text/sitemap">
+                    <param name="Name" value="Overview">
+                    <param name="Local" value="Overview_JTAG.htm">
+                </OBJECT>
+        </UL>
+    <LI> <OBJECT type="text/sitemap">
             <param name="Name" value="eMMC Operations">
             <param name="Local" value="eMMC_Operations.htm">
         </OBJECT>
@@ -36,13 +46,13 @@
                 </OBJECT>
         </UL>
     <LI> <OBJECT type="text/sitemap">
-            <param name="Name" value="JTAG Operations">
-            <param name="Local" value="JTAG_Operations.htm">
+            <param name="Name" value="UFS Operations">
+            <param name="Local" value="UFS_Operations.htm">
         </OBJECT>
         <UL>
             <LI> <OBJECT type="text/sitemap">
-                    <param name="Name" value="Overview">
-                    <param name="Local" value="Overview_JTAG.htm">
+                    <param name="Name" value="Overview ">
+                    <param name="Local" value="Overview_UFS_.htm">
                 </OBJECT>
         </UL>
 </UL></BODY>
