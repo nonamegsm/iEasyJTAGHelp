@@ -26,6 +26,24 @@
                 </OBJECT>
         </UL>
     <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="NAND Operations">
+            <param name="Local" value="NAND_Operations.htm">
+        </OBJECT>
+        <UL>
+            <LI> <OBJECT type="text/sitemap">
+                    <param name="Name" value="Overview">
+                    <param name="Local" value="Overview_NAND.htm">
+                </OBJECT>
+            <LI> <OBJECT type="text/sitemap">
+                    <param name="Name" value="Understanding NAND Flash">
+                    <param name="Local" value="Understanding_NAND_Flash.htm">
+                </OBJECT>
+            <LI> <OBJECT type="text/sitemap">
+                    <param name="Name" value="NAND Chips Pinout">
+                    <param name="Local" value="NAND_Chips_Pinout.htm">
+                </OBJECT>
+        </UL>
+    <LI> <OBJECT type="text/sitemap">
             <param name="Name" value="JTAG Operations">
             <param name="Local" value="JTAG_Operations.htm">
         </OBJECT>
