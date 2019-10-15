@@ -48,6 +48,10 @@
                     <param name="Name" value="NAND Chips Pinout">
                     <param name="Local" value="NAND_Chips_Pinout.htm">
                 </OBJECT>
+            <LI> <OBJECT type="text/sitemap">
+                    <param name="Name" value="Apple PPN iConfig">
+                    <param name="Local" value="Apple_PPN_iConfig.htm">
+                </OBJECT>
         </UL>
     <LI> <OBJECT type="text/sitemap">
             <param name="Name" value="JTAG Operations">
