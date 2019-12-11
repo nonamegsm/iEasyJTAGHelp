@@ -13,6 +13,20 @@
         </OBJECT>
         <UL>
             <LI> <OBJECT type="text/sitemap">
+                    <param name="Name" value="Box Hardware">
+                    <param name="Local" value="Box_Hardware.htm">
+                </OBJECT>
+                <UL>
+                    <LI> <OBJECT type="text/sitemap">
+                            <param name="Name" value="EasyJTAG box">
+                            <param name="Local" value="EasyJTAG_box.htm">
+                        </OBJECT>
+                    <LI> <OBJECT type="text/sitemap">
+                            <param name="Name" value="EasyJTAG Plus box">
+                            <param name="Local" value="EasyJTAG_Plus_box.htm">
+                        </OBJECT>
+                </UL>
+            <LI> <OBJECT type="text/sitemap">
                     <param name="Name" value="Supported Operations and Modes">
                     <param name="Local" value="Supported_Operations_and_Modes.htm">
                 </OBJECT>
@@ -71,6 +85,10 @@
             <LI> <OBJECT type="text/sitemap">
                     <param name="Name" value="Overview">
                     <param name="Local" value="Overview_eMMC.htm">
+                </OBJECT>
+            <LI> <OBJECT type="text/sitemap">
+                    <param name="Name" value="eMMC General errors">
+                    <param name="Local" value="eMMC_General_errors.htm">
                 </OBJECT>
         </UL>
     <LI> <OBJECT type="text/sitemap">
