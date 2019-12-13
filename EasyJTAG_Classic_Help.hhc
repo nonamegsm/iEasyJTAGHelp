@@ -87,8 +87,16 @@
                     <param name="Local" value="Overview_eMMC.htm">
                 </OBJECT>
             <LI> <OBJECT type="text/sitemap">
-                    <param name="Name" value="eMMC General errors">
+                    <param name="Name" value="eMMC software structure">
+                    <param name="Local" value="eMMC_software_structure.htm">
+                </OBJECT>
+            <LI> <OBJECT type="text/sitemap">
+                    <param name="Name" value="eMMC errors and solution">
                     <param name="Local" value="eMMC_General_errors.htm">
+                </OBJECT>
+            <LI> <OBJECT type="text/sitemap">
+                    <param name="Name" value="eMMC firmware restore procedure">
+                    <param name="Local" value="eMMC_firmware_restore_procedure.htm">
                 </OBJECT>
         </UL>
     <LI> <OBJECT type="text/sitemap">
