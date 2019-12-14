@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<h1>eMMC&nbsp;errors and solution</h1>
+<h1>eMMC General errors</h1>
 <table class="box bottomline">
 <tbody>
 <tr>
@@ -28,7 +28,7 @@ Can't init device, Reason: CARD Ready Timeout Error</p>
 Can't init device, Reason: OCR Ready Timeout Error [Check VCC or eMMC DEAD]</p>
 </td>
 <td bgcolor="">
-<p>eMMC card it not answer to host commands:</p>
+<p>eMMC cand it not answer to host commands:</p>
 <p>1) Bad connection, check connection, check eMMC power</p>
 <p>2) eMMC card fully dead, need replace</p>
 <p>3) eMMC card&nbsp;firmware dead, may be restored (some Samsung eMMC) via
@@ -52,12 +52,9 @@ Line!</p>
 Read Pages Failed, Reason: CARD Data FIFO Timeout Error</p>
 </td>
 <td>
-<p>eMMC card is answered with error to host commands:</p>
 <p>1) Bad connection, check connection</p>
-<p>2) For ISP connection: try to use "HiPower CLK mode" (without VCC and VCCQ
-wires)</p>
-<p>2) For ISP connection: try to reduce CLK Rate,&nbsp; select correct IO
-voltage as PBC, adapter</p>
+<p>2) Try to reduce CLK Rate,&nbsp; select correct IO voltage as PBC,
+adapter</p>
 <p>3) eMMC card fully dead, need replace</p>
 </td>
 </tr>
@@ -76,12 +73,11 @@ Error</p>
 Write Block Failed, Reason: DATA SND CRC Error</p>
 </td>
 <td>
-<p>eMMC card have errors&nbsp;when work with host:</p>
 <p>1) For ISP connection: lenght of CMD/CLK/Dat_0 most be is same, GND need use
 told wire</p>
 <p>2)&nbsp;For ISP connection: try to reduce CLK Rate,&nbsp; select correct IO
 voltage (VCCQ) as PBC or&nbsp;adapter voltage</p>
-<p>3) NAND cells of eMMC is lifetime ended or bad, need eMMC replace</p>
+<p>3) eMMC NAND cells is lifetime ended or bad, need eMMC replace</p>
 </td>
 </tr>
 </tbody>
