@@ -31,10 +31,6 @@
                     <param name="Local" value="Supported_Operations_and_Modes.htm">
                 </OBJECT>
             <LI> <OBJECT type="text/sitemap">
-                    <param name="Name" value="Supported Accessories">
-                    <param name="Local" value="Supported_Accessories.htm">
-                </OBJECT>
-            <LI> <OBJECT type="text/sitemap">
                     <param name="Name" value="Software GUI">
                     <param name="Local" value="Software_GUI.htm">
                 </OBJECT>
