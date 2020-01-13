@@ -36,8 +36,52 @@
                 </OBJECT>
                 <UL>
                     <LI> <OBJECT type="text/sitemap">
+                            <param name="Name" value="Log Page">
+                            <param name="Local" value="Log_Page.htm">
+                        </OBJECT>
+                    <LI> <OBJECT type="text/sitemap">
+                            <param name="Name" value="JTAG Pinout Helper">
+                            <param name="Local" value="JTAG_Pinout.htm">
+                        </OBJECT>
+                    <LI> <OBJECT type="text/sitemap">
+                            <param name="Name" value="eMMC Pinout Helper">
+                            <param name="Local" value="eMMC_Pinout_Helper.htm">
+                        </OBJECT>
+                    <LI> <OBJECT type="text/sitemap">
+                            <param name="Name" value="GPT Partitions Tool">
+                            <param name="Local" value="GPT_Partitions_Tool.htm">
+                        </OBJECT>
+                    <LI> <OBJECT type="text/sitemap">
+                            <param name="Name" value="Help system">
+                            <param name="Local" value="Help_system.htm">
+                        </OBJECT>
+                    <LI> <OBJECT type="text/sitemap">
                             <param name="Name" value="Easy Repair Page">
                             <param name="Local" value="Easy_Repair_Page.htm">
+                        </OBJECT>
+                    <LI> <OBJECT type="text/sitemap">
+                            <param name="Name" value="JTAG Page">
+                            <param name="Local" value="JTAG_Page.htm">
+                        </OBJECT>
+                    <LI> <OBJECT type="text/sitemap">
+                            <param name="Name" value="NAND Page">
+                            <param name="Local" value="NAND_Page.htm">
+                        </OBJECT>
+                    <LI> <OBJECT type="text/sitemap">
+                            <param name="Name" value="eMMC Page">
+                            <param name="Local" value="eMMC_Page.htm">
+                        </OBJECT>
+                    <LI> <OBJECT type="text/sitemap">
+                            <param name="Name" value="UFS Page">
+                            <param name="Local" value="UFS_Page.htm">
+                        </OBJECT>
+                    <LI> <OBJECT type="text/sitemap">
+                            <param name="Name" value="USB Page">
+                            <param name="Local" value="USB_Page.htm">
+                        </OBJECT>
+                    <LI> <OBJECT type="text/sitemap">
+                            <param name="Name" value="Settings Page">
+                            <param name="Local" value="Setting_Page.htm">
                         </OBJECT>
                 </UL>
         </UL>
