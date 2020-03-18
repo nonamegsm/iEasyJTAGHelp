@@ -13,19 +13,138 @@
 </tr>
 </tbody>
 </table>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<p><font size="3">The <strong>eMMC Page</strong> - work directly with the eMMC
+chip connected to the interface.</font></p>
+<p><font size="3">The upper part of the <strong>Connect and Identify
+eMMC</strong> window contains the <strong>Detect</strong> button - check the
+connection to eMMC and the settings of the connection interface:</font></p>
+<p><font size="3"><strong>Box Pinout Mode</strong> - select the type of
+connection eMMC (ISP / E-Socket);<br>
+<strong>eMMC CLK Rate</strong> - frequency of work with eMMC;<br>
+<strong>eMMC Voltage</strong> - select the voltage IO eMMC, it must correspond
+to the hardware power supply IO eMMC (fixed for E-Socket 2.8v);<br>
+<strong>eMMC Bus Width</strong> - selection of the operating mode with eMMC by
+the number of data lines (1/4/8);</font></p>
+<p><font size="3"><strong>Show Less Debug Data</strong> - allows you to reduce
+the log without displaying unused information eMMC in the log window;<br>
+<strong>Read soft Partition</strong> - determine and log the availability and
+information about eMMC partitions by clicking on the Detect button;<br>
+<strong>HiPower (TM) CLK Drive mode</strong> - activation of the HiPower (TM)
+CLK mode for connecting to a working device (for details, see "connection
+information"), enable only when using this mode.</font></p>
 <p><img src="picture/eMMC_Flasher.jpg"></p>
+<p><font size="3">The lower part of the window contains <strong>5</strong> tabs
+of working with eMMC:</font></p>
+<p><font size="3"><strong>1)</strong> <strong>Flasher</strong> - the main
+window for reading / deleting / writing data from / to eMMC;</font></p>
+<p><font size="3"><strong>ROM to access:</strong> - selection of the hardware
+of the eMMC area;<br>
+<strong>Preset</strong> - preset sizes for Start / Lenght;<br>
+<strong>Start</strong> - the starting address of the area;<br>
+<strong>Lenght</strong> -&nbsp;is the length of the area;</font></p>
+<p><font size="3"><strong>Write All Roms</strong> - an option for recording
+several files with "one button", active when selecting "Write all eMMC Regions
+at once";<br>
+<strong>Read eMMC Card</strong> - reading from eMMC into a file of the selected
+area;<br>
+<strong>Write eMMC Card</strong> - record in eMMC the selected area from the
+file selected in "Image";<br>
+<strong>Erase eMMC Card</strong> - erases the selected area of eMMC;<br>
+<strong>Stop Operation</strong> - button for interrupting / canceling the
+performed read / erase / write operations;</font></p>
+<p><font size="3"><strong>Image</strong> - select a file for recording "Write
+eMMC Card";<br>
+<strong>ROM1 / ROM2 / ROM3 / extCSD</strong> - select files to write to the
+appropriate sections in the "Write All Roms" mode;</font></p>
+<p><font size="3"><strong>Limit write lengh</strong> - limit the write limit in
+eMMC to its size;<br>
+<strong>Verify write / erase operation</strong> - enable verification of the
+operation to erase the recording (slows down the operation by half);<br>
+<strong>Upload Pinout on server</strong> - button for sending to the server
+the&nbsp;ISP pinout&nbsp; from user.</font></p>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<p><font size="3"><strong>2) eMMC BOOT Cfg</strong> - configuring eMMC boot
+modes through editing extCSD registers.</font></p>
 <p><img src="picture/eMMC_BOOT Cfg.jpg"></p>
+<p><font size="3"><strong>Boot_Partition_EN</strong> - selection of the boot
+partition from the eMMC (setting the bit register 179 extCSD);<br>
+<strong>Boot_ACK</strong> - setting the automatic boot sending mode to the CPU
+(setting the bit register 179 extCSD);<br>
+<strong>Set Partition Config:</strong> - record the selected value of register
+179&nbsp;to extCSD;</font></p>
+<p><font size="3"><strong>Boot_Mode</strong> - selection of the Data bus mode
+when working with Boot eMMC (setting the bit register 177 extCSD);<br>
+<strong>Boot_Bus_Width</strong> - selection of the width of the Data bus when
+working with Boot eMMC (setting the bit register 177 extCSD);<br>
+<strong>Reset_Boot_Bus_Width</strong> - selects the Data bus reset mode when
+working with Boot eMMC (setting the bit register 177 extCSD);<br>
+<strong>Set Boot Width Config:</strong> - record the selected value of register
+177 in extCSD;</font></p>
+<p><font size="3"><strong>Ext_CSD_RST_N_FUNC</strong> - selection of the
+operating mode of the physical signal RST_N eMMC (setting the bit register 162
+extCSD);<br>
+<strong>Set RST Conf</strong> - record the selected value of register 162 in
+extCSD;</font></p>
+<p><font size="3"><strong>Set i9300 / N7100 boot config</strong> - write
+registers 179/177 (with values ​​0x48 / 0x01, respectively) for Exynos
+processors (Samsung).</font></p>
 <p>&nbsp;</p>
+<p><font size="3"><strong>3) Advanced Options</strong> - work with eMMC, not
+included in other types of work (by tabs).</font></p>
+<p><font size="3"><strong>Android FRP clear</strong> - removal of FRP in the
+firmware recorded in eMMC;<br>
+<strong>Clear PIN / GTS / PASS</strong> - removal of the request for password
+and graphic key in Android firmware recorded in eMMC;<br>
+<strong>Android FDI Info</strong> - information about the presence of encrypted
+partitions and FRP in the firmware recorded in eMMC;</font></p>
+<p><font size="3"><strong>Dump eMMC FW</strong> - reading Samsung eMMC internal
+firmware&nbsp;for sending to the server;<br>
+<strong>Update eMMC FW</strong> - updating Samsung eMMC internal
+firmware&nbsp;or restoring Samsung eMMC internal firmware ( by
+Testpoint).</font></p>
+<p><font size="3"><img src="picture/eMMC_Advanced.jpg"></font></p>
 <p>&nbsp;</p>
+<p><font style="BACKGROUND-COLOR: #fafafa" color="#2f4f4f" size="3"><strong><font color="#000000">Custom Operation:</font></strong></font></p>
+<p><font style="BACKGROUND-COLOR: #fafafa" color="#000000" size="3"><strong>-
+Universal: Repair extCSD</strong> - recording extCSD backups in
+eMMC;</font></p>
+<p><font style="BACKGROUND-COLOR: #fafafa" color="#000000" size="3"><strong>-
+Universal: Factory Format</strong> - erase eMMC quickly (sometimes it does not
+work on some eMMC);</font></p>
+<p><font style="BACKGROUND-COLOR: #fafafa" color="#000000" size="3"><strong>-
+SAMSUNG: Read S.M.A.R.T. Report</strong> - reading information S.M.A.R.T. from
+Samsung eMMC;</font></p>
+<p><font style="BACKGROUND-COLOR: #fafafa" color="#000000" size="3"><strong>-
+SAMSUNG: VTU Name '000000' Repair</strong> - restoration of Samsung eMMC
+KMVTU000LM-B503, which are defined without Testpoint with eMMC NAME:
+00000;</font></p>
+<p><font style="BACKGROUND-COLOR: #fafafa" color="#000000" size="3"><strong>-
+SAMSUNG: MoviNAND Format and Reset</strong> - reset with Samsung eMMC data
+format (Wipe);</font></p>
+<p><font style="BACKGROUND-COLOR: #fafafa" color="#000000" size="3"><strong>-
+SAMSUNG: MoviNAND Factory Reset</strong> - reset with erasing Samsung eMMC
+data;</font></p>
+<p><font style="BACKGROUND-COLOR: #fafafa" color="#000000" size="3"><strong>-
+SAMSUNG: Remove Write Protection</strong> - removal of Write Protection mode
+with Samsung eMMC;</font></p>
+<p><font style="BACKGROUND-COLOR: #fafafa" color="#000000" size="3"><strong>-
+SAMSUNG: CID Editor</strong> - CID editor for Samsung eMMC;</font></p>
+<p><font style="BACKGROUND-COLOR: #fafafa" color="#000000" size="3"><strong>-
+SANDISK: Read S.M.A.R.T. Report</strong> - reading information S.M.A.R.T. from
+eMMC Sandisk.</font></p>
 <p>&nbsp;</p>
-<p><img src="picture/eMMC_Advanced.jpg"></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<p><font size="3"><strong>SD Tool</strong> - for eMMC or SDcard connected as
+eMMC:</font></p>
+<p><font size="3"><strong>Password</strong> - password field for eMMC /
+SDcard;</font></p>
+<p><font size="3"><strong>Set eMMC Password</strong> - setting a password for
+eMMC / SDcard;</font></p>
+<p><font size="3"><strong>Erase eMMC Password</strong> - erase the password and
+all data on eMMC / SDcard;</font></p>
+<p><font size="3"><strong>Search eMMC Password</strong> - bruteforce password
+eMMC / SDcard (in development);</font></p>
+<p><font size="3"><strong>Universal Format Repair</strong> - universal format
+recovery.</font></p>
 <p>&nbsp;</p>
 <p><img src="picture/eMMC_HW Partitions.jpg"></p>
 <p>&nbsp;</p>
