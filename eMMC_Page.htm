@@ -32,8 +32,7 @@ information about eMMC partitions by clicking on the Detect button;<br>
 <strong>HiPower (TM) CLK Drive mode</strong> - activation of the HiPower (TM)
 CLK mode for connecting to a working device (for details, see "connection
 information"), enable only when using this mode.</font></p>
-<p><img src="picture/eMMC.jpg">
-</p>
+<p><img src="picture/eMMC.jpg"></p>
 <p><font size="3">The lower part of the window contains&nbsp;<strong>5</strong>
 tabs of working with eMMC:</font></p>
 <p><font size="3"><strong>1)</strong> <strong>Flasher</strong> - the main
@@ -196,9 +195,40 @@ selected parameters in extCSD, with the extCSD register (155 / 0x9B) -
 PARTITON_SETTING_COMPLETED set to "0x01", after which operations to change the
 areas of "GP1-4" can not be changed.</font></p>
 <p>&nbsp;</p>
-<p><strong><font size="3">5)&nbsp;OTP</font></strong></p>
+<p><font size="3"><strong>5)&nbsp;OTP</strong> - One Time Programmable,
+contains <strong>Info&nbsp;</strong> panel, <strong>Read and Write</strong>
+panel and&nbsp;<strong>OTP Config</strong>&nbsp;panel.</font></p>
 <p><img src="picture/eMMC_OTP.jpg"></p>
-<p>&nbsp;</p>
+<p><font size="3"><strong>Info panel</strong> contain <strong>Scan for
+OTP</strong> button and <strong>OTP Offset</strong> box.</font></p>
+<p><font size="3"><strong>Scan for OTP</strong>&nbsp; - scans entire eMMC
+address space for OTP (One Time Programmable) area or multiple OTP areas.
+Results are printed in a log window if such areas detected.</font></p>
+<p><font size="3"><strong>Read and Write</strong> panel contain <strong>OTP
+Data file</strong> box and&nbsp; <strong>Read&nbsp;</strong> <strong>OTP
+Region,</strong> <strong>Write&nbsp;OTP Region</strong> buttons:</font></p>
+<p><font size="3"><strong>OTP Data file</strong> - box selection for writing
+OTP area of eMMC;</font></p>
+<p><font size="3"><strong>Read OTP Region</strong> button - reads contents of
+OTP are in selected file;</font></p>
+<p><font size="3"><strong>Write OTP Region</strong> button - writes a file to
+OTP region by provided address. Operation is possible only if OTP region is not
+locked permanently.</font></p>
+<p><font size="3"><strong>OTP Config</strong> panel:</font></p>
+<p><font size="3"><strong>Lock&nbsp;OTP</strong> -&nbsp;&nbsp;set protection
+flag for provided in Offset box address.</font></p>
+<p><font size="3"><strong>Unlock OTP</strong> - clear protection flag for
+provided on offset box address.&nbsp;Possible only if protection flag is not
+permanent. Otherwise can be cleared only by eMMC 4.5 firmware update of factory
+reset on Samsung eMMC chips.</font></p>
+<p><font size="3"><strong>Temporary:</strong> Write and Erase prevention scheme
+that can be enabled and disabled.</font></p>
+<p><font size="3"><strong>Power-on:</strong> Write and Erase prevention scheme,
+which once enabled, cannot be reversed untill a power failure event that causes
+the device to reboot occurs or the device is reset using the reset
+pin.</font></p>
+<p><font size="3"><strong>Permanent:</strong> Write and Erase prevention
+scheme, which once enabled, cannot be reversed.</font></p>
 <p>&nbsp;</p>
 </body>
 </html>
