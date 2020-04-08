@@ -1,0 +1,31 @@
+[OPTIONS]
+Binary TOC=Yes
+Compatibility=1.1 or later
+Compiled file={Project}.chm
+Contents file={Project}.hhc
+Default Window=main
+Default topic=
+Display compile progress=Yes
+Error log file=logcompile.txt
+Full text search stop list file=stoplist.stp
+Full-text search=Yes
+Index file={Project}.hhk
+Language=0x409 English (United States)
+
+[WINDOWS]
+main=,"{Project}.hhc","{Project}.hhk",,,,,,,0x63561,,0x70383e,,,,,,,,0
+
+
+[FILES]
+icons\*
+#include {Project}_files.txt
+#include {Project}_files_extra.txt
+
+[ALIAS]
+#include {Project}_alias.txt
+
+[MAP]
+#include {Project}_map.txt
+
+[INFOTYPES]
+

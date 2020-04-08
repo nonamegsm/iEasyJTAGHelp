@@ -1,0 +1,39 @@
+﻿<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+<!-- Put Java help object tag here -->
+</HEAD>
+<BODY>
+<UL>
+    <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Introdusing">
+            <param name="Local" value="EasyJTAG_Classic_Help.html">
+        </OBJECT>
+        <UL>
+            <LI> <OBJECT type="text/sitemap">
+                    <param name="Name" value="Hardware">
+                    <param name="Local" value="Hardware.htm">
+                </OBJECT>
+                <UL>
+                    <LI> <OBJECT type="text/sitemap">
+                            <param name="Name" value="EasyJTAG box">
+                            <param name="Local" value="EasyJTAG_box.htm">
+                        </OBJECT>
+                    <LI> <OBJECT type="text/sitemap">
+                            <param name="Name" value="EasyJTAG Plus box">
+                            <param name="Local" value="EasyJTAG_Plus_box.htm">
+                        </OBJECT>
+                    <LI> <OBJECT type="text/sitemap">
+                            <param name="Name" value="Accessories">
+                            <param name="Local" value="Accessories.htm">
+                        </OBJECT>
+                </UL>
+            <LI> <OBJECT type="text/sitemap">
+                    <param name="Name" value="Software">
+                    <param name="Local" value="Software.htm">
+                </OBJECT>
+        </UL>
+</UL></BODY>
+</HTML>

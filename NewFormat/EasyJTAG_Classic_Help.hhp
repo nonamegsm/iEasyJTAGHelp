@@ -1,0 +1,25 @@
+[OPTIONS]
+Binary TOC=Yes
+Compatibility=1.1 or later
+Compiled file=EasyJTAG_Classic_Help.chm
+Contents file=EasyJTAG_Classic_Help.hhc
+Default Font=Arial,8
+Default Window=main
+Default topic=EasyJTAG_Classic_Help.html
+Display compile progress=Yes
+Error log file=logcompile.txt
+Full text search stop list file=stoplist.stp
+Full-text search=Yes
+Index file=EasyJTAG_Classic_Help.hhk
+Language=0x409 English (United States)
+Title=EasyJTAG Classic Help
+[WINDOWS]
+main=,"EasyJTAG_Classic_Help.hhc","EasyJTAG_Classic_Help.hhk","EasyJTAG_Classic_Help.html","EasyJTAG_Classic_Help.html",,,,,0x42520,,0x60082e,,,,,,,,0
+[FILES]
+#include EasyJTAG_Classic_Help_files.txt
+#include EasyJTAG_Classic_Help_files_extra.txt
+icons\*
+[ALIAS]
+#include EasyJTAG_Classic_Help_alias.txt
+[MAP]
+#include EasyJTAG_Classic_Help_map.txt
