@@ -1,6 +1,6 @@
 ﻿Microsoft HTML Help Compiler 4.74.8702
 
-Compiling c:\Users\Omar\AppData\Local\Temp\bndwhvq1.c1t\EasyJTAG_Classic_Help.chm
+Compiling c:\Users\Omar\AppData\Local\Temp\scagbo1y.kod\EasyJTAG_Classic_Help.chm
 
 HHC5003: Error: Compilation failed while compiling п»їEasyJTAG_Classic_Help.html.
 Hardware.htm
