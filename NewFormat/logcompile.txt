@@ -1,6 +1,6 @@
 ﻿Microsoft HTML Help Compiler 4.74.8702
 
-Compiling c:\Users\Omar\AppData\Local\Temp\scagbo1y.kod\EasyJTAG_Classic_Help.chm
+Compiling c:\Users\Omar\AppData\Local\Temp\ddbyruka.ums\EasyJTAG_Classic_Help.chm
 
 HHC5003: Error: Compilation failed while compiling п»їEasyJTAG_Classic_Help.html.
 Hardware.htm
@@ -12,12 +12,15 @@ Interface.htm
 JTAG_Operations.htm
 eMMC_Operations.htm
 NAND_Operations.htm
+Apple_PPN_iConfig.htm
 UFS_Operations.htm
 css\style.css
 images\box1.jpg
 js\custom.js
 images\box4.jpg
 images\box3.jpg
+images\apple_ppn_iconfig_models.jpg
+images\apple_ppn_iconfig_screen.jpg
 HHC5003: Error: Compilation failed while compiling icons\..
 HHC5003: Error: Compilation failed while compiling icons\...
 icons\1.png

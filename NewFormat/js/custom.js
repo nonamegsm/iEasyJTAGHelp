@@ -9,16 +9,21 @@ function imgFix() {
 		var img = new Image();
 		img.src = images[i].src;
 		var naturalWidth = img.width;
+		var parentWidth = images[i].parentNode.offsetWidth - 10;
+		//alert(parentWidth+"  "+maxWidth);		
 		
-		if (maxWidth && naturalWidth && images[i].width)
+		if (maxWidth && naturalWidth && parentWidth && images[i].width)
 		{
-			if (naturalWidth < maxWidth)
+			if (naturalWidth < maxWidth && naturalWidth < parentWidth)
 			{
 				images[i].width = naturalWidth;
 			}
 			else
 			{
-				images[i].width = maxWidth;						
+				if (maxWidth < parentWidth)
+					images[i].width = maxWidth;		
+				else
+					images[i].width = parentWidth;		
 			}			
 		}
 		
@@ -26,4 +31,4 @@ function imgFix() {
 };
 
 window.attachEvent("onresize", imgFix);
-imgFix();
+window.attachEvent("onload", imgFix);
