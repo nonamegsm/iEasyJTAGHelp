@@ -1,0 +1,261 @@
+﻿<html>
+<head>
+<title>Apple PPN iConfig</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<p dir="ltr" align="left"><a name="_GoBack"><font size="3" face="Open Sans">EasyJtag NAND iConfig</font></a></p>
+<table class="box bottomline">
+<tbody>
+<tr>
+<th><a href="NAND_Operations.htm"><font size="3" face="Open Sans">NAND
+Operations</font></a> </th>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<span lang=""><a name="_GoBack"></a></span> 
+
+<p dir="ltr" align="left"><font size="3" face="Open Sans">Apple Device
+Guide</font></p>
+<p dir="ltr" align="left"><font color="#355e8e"><font color="#355e8e"><font color="#355e8e" size="5" face="Open Sans"><strong>1.
+Theory</strong></font></font></font></p>
+<p dir="ltr" align="left"><font size="3" face="Open Sans">The most convenient
+way to replace a memory card in Apple devices is to replace it with iTunes.
+Using official software avoids unnecessary errors and installs the original
+firmware in the refurbished device.</font></p>
+<p dir="ltr" align="left"><font size="3" face="Open Sans">The only problem in
+this case is copying the serial data needed to further activate and use the
+device. To successfully copy and record serial data, you need to remember the
+following features:</font></p>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">1) Each generation of devices has a clear
+list of usable memory cards. Before selecting a card, make sure it's right for
+the device.</font></li>
+</ul>
+<font size="3" face="Open Sans">2) Each generation of devices for each memory
+card model has a unique storage unit for serial information. Thus, you can only
+fully copy a block with serial information on a map of the exact same
+model.</font> 
+
+<ul class="noindent">
+<li><font size="3" face="Open Sans">3) Devices are separated by discharge by
+generation:</font></li>
+</ul>
+<div style="MARGIN-LEFT: 2em">
+<ol>
+<li><font size="3" face="Open Sans">(a) Devicesx32:</font> <font size="3" face="Open Sans">- iPad2 - iPad3 - iPad4 - iPhone4s - iPhone5 - iPhone5c -
+mini1</font></li>
+<li><font size="3" face="Open Sans">b) Devices x64: - iPad5</font> <font size="3" face="Open Sans">- iPad6 - iPadAir - iPadAir2 - iPhone5s - iPhone6 -
+iPhone6P - mini2 - mini3 - mini4</font></li>
+</ol>
+</div>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">4) Devices have different storage patterns.
+Thus, if you move a map from one model to another, you may need pre-formatting.
+You can format the map with iTunes, erase it completely enough and restore it
+with iTunes. Also, this action may be necessary when using a new (clean)
+card.</font></li>
+<li><font size="3" face="Open Sans">5) When you restore your device with
+iTunes, auto-rotation information is copied to iOS, where it is stored
+encrypted and where it will be read the next time you use iTunes. So if you
+need to change the auto-rotational information, you need to not only change it
+in the auto-rotation block, but also remove it from the OS. The</font></li>
+</ul>
+<p dir="ltr" align="left"><font size="3" face="Open Sans">The easy way to do
+this is to completely erase the memory.6) In some cases, when replacing the
+memory card, you should change the device's model to</font></p>
+<p dir="ltr" align="left"><font size="3" face="Open Sans">Sometimes this leads
+to errors in recovery through iTunes.</font></p>
+<p dir="ltr" align="left"><font color="#355e8e"><font color="#355e8e"><font color="#355e8e" size="5" face="Open Sans"><strong>2.
+Algorithm</strong></font></font></font></p>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">1) Remove the memory card from the device
+and read from it auto-rotation allotoninformation. Or get information in any
+other way.</font></li>
+</ul>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">2) Install a new memory card in your device
+and format (restore) it with iTunes before you erase it.</font></li>
+</ul>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">3) Remove the memory card and write it
+auto-rotation alloton information. Not forgetting to delete OS
+data.</font></li>
+</ul>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">4) Restore your device with
+iTunes.</font></li>
+</ul>
+<p dir="ltr" align="left">&nbsp;</p>
+<p dir="ltr" align="left"><font size="3"><font face="Open Sans"><font color="#355e8e"><font color="#355e8e"><font color="#355e8e"><font size="5"><strong>3.
+Apple's Auto-Rotation Information Interface (later iConfig) in EasyJtag
+Classic</strong></font></font></font></font></font></font></p>
+<p dir="ltr" align="left"><font size="3"><font face="Open Sans"><font color="#355e8e"><font color="#355e8e"><font color="#355e8e"><br>
+</font></font></font></font></font><font size="3" face="Open Sans">The suite
+has created a separate tab. To choose from, go to the NAND toolbar tab and then
+select the iConfig tab.</font></p>
+<p dir="ltr" align="left"><font size="3" face="Open Sans">The working area can
+be divided into four parts:</font></p>
+<ul>
+<li><font size="3" face="Open Sans">1) NAND General is a global panel for all
+NAND tabs, allowing you to identify the memory card, as well as adjust the
+frequency and voltage. Error management options don't affect
+iConfig.</font></li>
+</ul>
+<font size="3" face="Open Sans">2) IConfig's display and settings area. This
+area displays Apple's auto-rotation al-data for this map or settings file.
+Please note that identification does not change information in these
+fields.</font> 
+
+<p style="MARGIN-LEFT: 4em" dir="ltr" align="left"><font size="3" face="Open Sans">The information entered into the field data will be used on the
+recording and will replace the information in the iConfig memory card. If you
+don't want to change values in a field, just leave it empty.</font></p>
+<p dir="ltr" align="left"><font size="3" face="Open Sans">It should also be
+noted that this panel stores all possible options iConfig. As mentioned above,
+the same memory card model can be used in different devices, and as a result,
+can have different ways of storing iConfig. To view all iConfig, use the Drop
+list mode in this area. Attention! Mode in this area only switches information
+about iConfig, but does not affect its record.</font></p>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">3) The iConfig reading and selection area
+allows you to read the data (Read iConfig button) and save the areas with them
+(Read and save iConfig area). Saving takes place in master iConfig file, which
+automatically opens the program after the save.</font></li>
+</ul>
+<ol start="3">
+<li style="LIST-STYLE-TYPE: none">
+<p dir="ltr" align="left"><font size="3" face="Open Sans">In this area, you can
+select files with area data (iConfig area) that will be recorded, as well as
+open the previously saved Master iConfig file.</font></p>
+</li>
+</ol>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">4)&nbsp;</font> The iConfig recording area
+lets you set up Write Mode. Most often, the cards have one recording mode for
+each discharge (x32 or x64). However, sometimes there are cards with two
+recording modes for each of the discharges. To choose the right one, just read
+the formatted (restored) map with iTunes and see in which case a more complete
+block of data has returned.</li>
+</ul>
+<div style="MARGIN-LEFT: 4em">
+<p dir="ltr" align="left"><font size="3" face="Open Sans">The Erase data option
+includes a complete cleaning (erasure) of the card before recording or stering
+the iConfig area.</font></p>
+<p dir="ltr" align="left"><font size="3" face="Open Sans">The Fix iConfig
+button changes the iConfig data recorded in the map, but doesn't change the
+rest of the data in the storage area (iConfig area). Convenient to work with a
+map that's already been restored with iTunes.</font></p>
+<p dir="ltr" align="left"><font size="3" face="Open Sans">The Erase all iConfig
+areas button removes everything you can for this iConfig area. Lets you start
+the iConfig area recovery process with iTunes.</font></p>
+<p dir="ltr" align="left"><font size="3" face="Open Sans">The Write iConfig
+area from files is completely rewrites iConfig area data and replaces it with
+file data listed in the previous area. When you write, iConfig data is replaced
+in the iConfig area in the same way as Fix iConfig. It can be useful when
+cloning a map or if necessary to record your data. It is worth recalling that
+the iConfig area is interchangeable only for the same map model and only within
+one generation of devices.</font></p>
+<p dir="ltr" align="left"><font size="3" face="Open Sans">The Write iConfig for
+Selected Device button maps the iConfig area we've prepared for the Device
+device we select in the field and the map we use. This changes
+iConfig</font></p>
+</div>
+<p dir="ltr" align="left"><font size="3" face="Open Sans">iConfig area. This
+mode is needed to record data on a new map and allows you to do without
+pre-formatting with iTunes.</font></p>
+<p dir="ltr" align="left"><font color="#355e8e"><font color="#355e8e"><font color="#355e8e" size="5" face="Open Sans"><strong>4. Standard software
+algorithm</strong></font></font></font></p>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">1) Remove an old memory card from your
+device.</font></li>
+</ul>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">2) Identify it (Identify NAND Chip
+button).</font></li>
+</ul>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">3) Read and save the iConfig area (Read and
+save iConfig area).</font></li>
+</ul>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">4) Identify a new card (Identify NAND Chip
+button).</font></li>
+</ul>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">5) Read iConfig (Read iConfig button). If a
+new map is taken from a device on the same model, we go straight to
+p.14.</font></li>
+</ul>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">6) Erase data from the card (Erase all
+iConfig areas button with Erase data enabled).</font></li>
+</ul>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">7) Restore iConfig area with iTunes
+(install map into device and restore when iTunes).</font></li>
+</ul>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">8) Remove the map and read iConfig (Read
+iConfig button). If iConfig is successfully read, let's move on to
+p.14.</font></li>
+</ul>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">9) Fill iConfig fields manually or open
+Master iConfig file (saved in p.3).</font></li>
+</ul>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">10) Record, prepared by us, iConfig area.
+To do this, you need to choose a recording mode (Write Mode), select a device
+,Device), set the Erase data option and click Write iConfig for Selected
+Device.</font></li>
+</ul>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">11) Restore to install using iTunes
+(install map into device and run iTunes).</font></li>
+</ul>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">12) Check the device after recovery, in
+case the data is recovered correctly moving on to p.18</font></li>
+</ul>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">13) Remove the map and read iConfig (Read
+iConfig button). In the case of iConfig reading, we move on to
+p.14.&nbsp;</font></li>
+</ul>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">14) Fill iConfig fields manually or open
+Master iConfig file (saved in p.3).</font></li>
+</ul>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">15) Change iConfig data. To do this, you
+need to choose a write mode (Write Mode), set Erase data and click
+iConfig.</font></li>
+</ul>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">16) Install a map and start the recovery
+using iTunes.</font></li>
+</ul>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">17) Check the device after recovery. If the
+recovery went wrong, a different non-standard solution is needed. Save the work
+log and Master iConfig file and get in touch to further address this
+issue.</font></li>
+</ul>
+<ul class="noindent">
+<li><font size="3" face="Open Sans">18) Enjoy your work device!</font></li>
+</ul>
+<div style="MARGIN-LEFT: 4em">
+<p dir="ltr" align="left"><font size="3" face="Open Sans">You can also use a
+simplified algorithm to just skip the items from 6 to 8</font></p>
+</div>
+<p dir="ltr" align="left"><font size="3" face="Open Sans">Inclusive. This will
+save time and reduce the risks of damaging the device while installing and
+removing the memory card. But, in some non-standard cases, you need to use
+iConfig area restoration with iTunes (p.6-8).</font></p>
+<p dir="ltr" align="left"><font size="3" face="Open Sans">Written by KLqwer.©
+2019 EasyJtag</font></p>
+</body>
+</html>
+

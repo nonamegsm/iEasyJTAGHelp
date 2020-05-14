@@ -5,70 +5,145 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<h1><font size="6"><strong>EasyJTAG Plus box</strong></font></h1>
-<table class="box bottomline">
+<h1>EasyJTAG Plus box</h1>
+<table class="box overview">
 <tbody>
 <tr>
-<th><a href="Box_Hardware.htm"><font size="3">Box Hardware</font></a> </th>
+<th>Overview</th>
+</tr>
+<tr>
+<td>
+<ul>
+<li><a href="#Introduse">Introduse</a></li>
+<li><a href="#Hardware">Hardware</a></li>
+<li><a href="#Accessories">Accessories</a></li>
+<li><a href="#Features">Features</a></li>
+<li><a href="#Benefits">Benefits</a></li>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
-<h1><font size="3"><font size="3"><strong>EasyJTAG Plus box</strong>&nbsp; -
-Second release (new-generation) box hardware, black-white label box,
-produced&nbsp;only at&nbsp;metal case, released and selling from December 2017,
-suppoterd eMMC, JTAG, ISP, SPI, NAND, M-PHY (UFS
-Memory)&nbsp;protocols.</font></font></h1>
-<p>&nbsp;</p>
-<p><img style="HEIGHT: 309px; WIDTH: 406px" src="picture/Box1.jpg" width="406" height="336"></p>
-<p><font size="3"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EasyJTAG
-Plus box&nbsp; -</strong>&nbsp;&nbsp; <strong>General view</strong></font></p>
-<p>&nbsp;</p>
-<p><font size="3"><font size="3"><img src="picture/Box4.jpg"></font></font></p>
-<p><font size="3"><font size="3"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-EasyJTAG Plus box&nbsp; -</strong>&nbsp;&nbsp;&nbsp;<strong>Front
-view</strong></font></font></p>
-<p>&nbsp;</p>
-<p><font size="3"><img src="picture/Box3.jpg"></font></p>
-<p><font size="3"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-EasyJTAG Plus box&nbsp; -</strong>&nbsp;&nbsp;&nbsp;<strong>Back
-view</strong></font></p>
-<p>&nbsp;</p>
-<p><font size="3"><font color="#000000"><strong>The main features of a new
-hardware are:</strong><br>
-</font><br>
-- Updated Host MCU SAM3X8E vs LPC1768 in old box.<br>
-- Updated HIGH SPEED FPGA SPARTAN6 vs SPARTAN3 in old box<br>
-- Updated POWER MANAGEMENT subsystem – Full Digital PWM with ADC control.<br>
-- Added microUSB Connector if additional power required.<br>
-- Added VCC and VCCQ switch with overcurrent protection.<br>
-- Updated USB device interface: USB 2.0 480 Mbps (High Speed)<br>
-- Integrated ISP engine: Z3X High Power Pro Engine (4MB/s )<br>
-- Added eMMC 8 bit high speed interface up to 42Mhz<br>
-- Integrated NAND* engine: NFC with 4 Kbyte RAM buffer and ECC<br>
-- Integrated M-PHY* interface.<br>
-- Integrated SPI engine: up to 21 MHz clock for popular SPI Memory Flash IC<br>
-- Integrated Self Test Core that exclude 90% faults in production.<br>
-- Integrated CCID Card Reader for Z3X Software Use<br>
+<h2><a name="Introduse">Introduse</a></h2>
+<p><strong>EasyJTAG Plus box</strong>&nbsp; - Second generation box hardware,
+black-white label box, produced only at metal case, released and selling from
+December 2017, suppoterd eMMC, JTAG, ISP, SPI, NAND, M-PHY (UFS Memory)
+protocols.</p>
 <br>
+<h2><a name="Hardware">Hardware</a></h2>
+<p>The hardware part of the complex is a device, hereinafter referred to as
+box.</p>
+<table class="img-table">
+<tbody>
+<tr>
+<th>&nbsp;<img border="0" hspace="0" alt="" src="images/Box1.jpg"> </th>
+</tr>
+<tr>
+<td>
+<p align="center">General view</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>On the front of the box&nbsp;are four LEDs Blue, Red, Yellow and Green and
+two connectors 20-pin and RJ-45.<br>
+</p>
+<table class="img-table">
+<tbody>
+<tr>
+<th>&nbsp;<img border="0" hspace="0" alt="" src="images/Box4.jpg"> </th>
+</tr>
+<tr>
+<td>
+<p align="center">Front view</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Glowing or flashing of LEDs indicate the status of the box.<br>
+The main connector is a 20-pin, two-line folder. The contacts of this connector
+are connected to the&nbsp;interface of the target device or its&nbsp;memory
+chip.<br>
+The RJ45 connector is auxiliary and is designed to enhance functionality of the
+box (USB-UART emulation, managed power lines, etc.).</p>
+<p>On the back of the box&nbsp;are USB type-B and&nbsp;mini-USB ports and a
+slot for activation SIM card.</p>
+<table class="img-table">
+<tbody>
+<tr>
+<th>&nbsp;<img border="0" hspace="0" alt="" src="images/Box3.jpg"></th>
+</tr>
+<tr>
+<td>
+<p align="center">Back view</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The USB type-B port provides power to the box and its connection to the
+computer running the Z3X EasyJtag software.<br>
+The mini-USB port&nbsp;allow connect additional power to the box in case if it
+needed.<br>
+A SIM card is inserted into the SIM slot, which is the hardware key to activate
+the box. Without the hardware key, EasyJtag box is impossible to operate.<br>
+</p>
 <br>
-<font color="#000000"><strong>The main benefits of a new hardware
-are:</strong></font><br>
+<h2><a name="Accessories">Accessories</a></h2>
+<p><font color="#ff0000">Надо дописать список возможных аксесуаров и сделать на
+них ссылки</font></p>
 <br>
-- Box to Host PC speed increased up to 40MB/sec<br>
-- JTAG Interface speed increased 20%<br>
-- eMMC 1 Bit ISP Speed increased up to 4MB/sec<br>
-- eMMC 4 Bit Speed up to 18MB/sec<br>
-- eMMC 8 Bit Speed up to 28MB/sec ( eMMC 5.0+ )<br>
-- Compatibility with 99 host PC systems and OS’s<br>
-- Compatibility with old Easy JTAG gen. 1 ISP adapters (1bit)<br>
-- Adapter-less ISP (all stuff inside the box)<br>
-- Compatibility with all market popular eMMC sockets (with supplied
-adapters)<br>
-- True Plug and Play for modern Windows OS (8, 8.1, 10)<br>
-- Full Support for legacy OS like Windows XP</font></p>
-<p><img src="picture/RJ45.jpg"></p>
-<p><font size="3"><strong>EasyJTAG Plus box&nbsp; -&nbsp;&nbsp;&nbsp;RJ45
-Connector</strong></font></p>
+<h2><a name="Features">Features</a></h2>
+<p><strong>The main features of a new hardware are:</strong></p>
+<ul>
+<li>Updated Host MCU SAM3X8E vs LPC1768 in old box.</li>
+<li>Updated HIGH SPEED FPGA SPARTAN6 vs SPARTAN3 in old box.</li>
+<li>Updated POWER MANAGEMENT subsystem – Full Digital PWM with ADC
+control.</li>
+<li>Added microUSB Connector if additional power required.</li>
+<li>Added VCC and VCCQ switch with overcurrent protection.</li>
+<li>Updated USB device interface: USB 2.0 480 Mbps (High Speed).</li>
+<li>Integrated ISP engine: Z3X High Power Pro Engine (4MB/s).</li>
+<li>Added eMMC 8 bit high speed interface up to 42Mhz.</li>
+<li>Integrated NAND engine: NFC with 4 Kbyte RAM buffer and ECC.</li>
+<li>Integrated M-PHY interface (UFS memory chip).</li>
+<li>Integrated SPI engine: up to 21 MHz clock for popular SPI Memory Flash
+IC.</li>
+<li>Integrated Self Test Core that exclude 90% faults in production.</li>
+<li>Integrated CCID Card Reader for Z3X Software Use</li>
+</ul>
+<br>
+<h2><a name="Benefits">Benefits</a></h2>
+<p><strong>The main benefits of a new hardware are</strong>:</p>
+<ul>
+<li>Box to Host PC speed increased up to 40MB/sec</li>
+<li>JTAG Interface speed increased 20%</li>
+<li>eMMC 1 Bit ISP Speed increased up to 4MB/sec</li>
+<li>eMMC 4 Bit Speed up to 18MB/sec</li>
+<li>eMMC 8 Bit Speed up to 28MB/sec ( eMMC 5.0+ )</li>
+<li>Added NAND interface</li>
+<li>Added M-PHY interface</li>
+<li>Compatibility with 99 host PC systems and OS’s</li>
+<li>Compatibility with old Easy JTAG gen. 1 ISP adapters (1bit)</li>
+<li>Adapter-less ISP (all stuff inside the box)</li>
+<li>Compatibility with all market popular eMMC sockets (with supplied
+adapters)</li>
+<li>True Plug and Play for modern Windows OS (8, 8.1, 10)</li>
+<li>Full Support for legacy OS like Windows XP</li>
+</ul>
+<table class="box bottomline">
+<tbody>
+<tr>
+<th><a href="Hardware.htm">Hardware</a></th>
+</tr>
+</tbody>
+</table>
+<div id="nstext">
+<hr>
+</div>
+<div class="copyright"><em>Copyright (c) 2020</em> <a href="http://easy-jtag.com/" target="_blank"><em>EasyJtag</em></a> <em>by</em> <a href="https://z3x-team.com/" target="_blank"><em>Z3X-Team</em></a><em>. All
+Rights Reserved.</em></div>
+<script type="text/javascript" src="js/custom.js">
+</script>
 </body>
 </html>
 

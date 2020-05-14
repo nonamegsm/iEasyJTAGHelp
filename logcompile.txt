@@ -1,0 +1,116 @@
+﻿Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\Users\Omar\AppData\Local\Temp\5nqzm5vy.x4u\EasyJTAG_Classic_Help.chm
+
+HHC5003: Error: Compilation failed while compiling п»їEasyJTAG_Classic_Help.html.
+Hardware.htm
+EasyJTAG_box.htm
+EasyJTAG_Plus_box.htm
+Accessories.htm
+Software.htm
+Interface.htm
+Log_Page.htm
+JTAG_Pinout.htm
+eMMC_Pinout_Helper.htm
+GPT_Partitions_Tool.htm
+Help_system.htm
+Easy_Repair_Page.htm
+JTAG_Page.htm
+eMMC_Page.htm
+USB_Page.htm
+JTAG_Operations.htm
+eMMC_Operations.htm
+NAND_Operations.htm
+Apple_PPN_iConfig.htm
+UFS_Operations.htm
+css\style.css
+images\1 box_front_end.png
+images\box1.jpg
+js\custom.js
+images\complect jtag.jpg
+images\box4.jpg
+images\box3.jpg
+images\easyjtag nandkit.png
+images\easyjtagclassicui_clean.png
+images\software_log_page.jpg
+images\jtag_pinout_helper.jpg
+images\emmc_pinout_helper.jpg
+images\gpt partition tab.jpg
+images\help_system.jpg
+images\easy_repair.jpg
+images\jtag_tools_page.jpg
+images\emmc.jpg
+images\emmc_flasher.jpg
+images\emmc_boot cfg.jpg
+images\emmc_advanced.jpg
+images\emmc_hw partitions.jpg
+images\emmc_otp.jpg
+images\usb_adb.jpg
+images\usb_qc edl.jpg
+images\usb_lg laf.jpg
+images\lg_deviceusbconnected.png
+images\lg_laf_firmwareupdatemode.png
+images\emmc_structure.png
+images\apple_ppn_iconfig_models.jpg
+images\apple_ppn_iconfig_screen.jpg
+HHC5003: Error: Compilation failed while compiling icons\..
+HHC5003: Error: Compilation failed while compiling icons\...
+icons\1.png
+icons\2.png
+icons\3.png
+icons\4.png
+icons\5.png
+icons\6.png
+icons\7.png
+icons\8.png
+icons\9.png
+icons\concept.png
+icons\concept16.png
+icons\concept24.png
+icons\concept32.png
+icons\download.png
+icons\download16.png
+icons\download24.png
+icons\download32.png
+icons\example.png
+icons\example16.png
+icons\example24.png
+icons\example32.png
+icons\favicon.ico
+icons\help.png
+icons\help16.png
+icons\help24.png
+icons\help32.png
+icons\note.png
+icons\note16.png
+icons\note24.png
+icons\note32.png
+icons\overview.png
+icons\overview16.png
+icons\overview24.png
+icons\overview32.png
+icons\procedure.png
+icons\procedure16.png
+icons\procedure24.png
+icons\procedure32.png
+icons\related.png
+icons\related16.png
+icons\related24.png
+icons\related32.png
+icons\tip.png
+icons\tip16.png
+icons\tip24.png
+icons\tip32.png
+icons\warning.png
+icons\warning16.png
+icons\warning24.png
+icons\warning32.png
+EasyJTAG_Classic_Help.html
+EasyJTAG_Classic_Help.hhc
+EasyJTAG_Classic_Help.hhk
+
+
+The following files were not compiled:
+п»їEasyJTAG_Classic_Help.html
+icons\.
+icons\..
