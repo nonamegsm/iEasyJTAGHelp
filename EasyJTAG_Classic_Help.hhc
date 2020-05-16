@@ -76,6 +76,10 @@
                                     <param name="Name" value="USB Page">
                                     <param name="Local" value="USB_Page.htm">
                                 </OBJECT>
+                            <LI> <OBJECT type="text/sitemap">
+                                    <param name="Name" value="Settings Page">
+                                    <param name="Local" value="Settings_Page.htm">
+                                </OBJECT>
                         </UL>
                 </UL>
         </UL>
