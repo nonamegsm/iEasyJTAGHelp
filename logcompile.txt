@@ -108,6 +108,8 @@ icons\warning32.png
 EasyJTAG_Classic_Help.html
 EasyJTAG_Classic_Help.hhc
 EasyJTAG_Classic_Help.hhk
+Settings_Page.htm
+images\Settings.jpg
 
 
 The following files were not compiled:
