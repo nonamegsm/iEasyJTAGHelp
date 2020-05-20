@@ -109,6 +109,7 @@ EasyJTAG_Classic_Help.html
 EasyJTAG_Classic_Help.hhc
 EasyJTAG_Classic_Help.hhk
 Settings_Page.htm
+images\eMMC_tool_Suite.jpg
 images\Settings.jpg
 
 
