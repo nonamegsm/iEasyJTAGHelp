@@ -14,14 +14,17 @@ Easy_Repair_Page.htm
 JTAG_Page.htm
 eMMC_Page.htm
 USB_Page.htm
+Settings_Page.htm
 JTAG_Operations.htm
 eMMC_Operations.htm
 NAND_Operations.htm
 Apple_PPN_iConfig.htm
 UFS_Operations.htm
+What_is_the_UFS_Memory.htm
 css/style.css
 images/1 box_front_end.png
 images/box1.jpg
+images/emmc_tool_suite.jpg
 js/custom.js
 images/complect jtag.jpg
 images/box4.jpg
@@ -46,6 +49,9 @@ images/usb_qc edl.jpg
 images/usb_lg laf.jpg
 images/lg_deviceusbconnected.png
 images/lg_laf_firmwareupdatemode.png
+images/settings.jpg
 images/emmc_structure.png
 images/apple_ppn_iconfig_models.jpg
 images/apple_ppn_iconfig_screen.jpg
+images/emmc_51_parallel_interface.png
+images/ufs_21_serial_interface.png
