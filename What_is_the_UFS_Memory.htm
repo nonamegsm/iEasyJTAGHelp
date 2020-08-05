@@ -1,0 +1,78 @@
+﻿<html>
+<head>
+<title>What is the UFS Memory</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<h1>What is the UFS Memory</h1>
+<p>&nbsp;</p>
+<p><font size="3"><strong>Universal Flash Storage</strong>, officially
+abbreviated as <strong>UFS</strong>, is a <a href="https://en.wikipedia.org/wiki/Flash_storage">flash storage</a> specification
+for <a href="https://en.wikipedia.org/wiki/Mobile_phone">mobile phones</a> and
+<a href="https://en.wikipedia.org/wiki/Consumer_electronic">consumer
+electronic</a> devices. It aims to bring higher <a href="https://en.wikipedia.org/wiki/Data_transfer">data transfer</a> speed and
+increased reliability to flash memory storage.</font></p>
+<p><font size="3">UFS is positioned as a replacement for <a href="https://en.wikipedia.org/wiki/EMMC">eMMCs</a> and <a href="https://en.wikipedia.org/wiki/Secure_Digital">SD cards</a>. The electrical
+interface for UFS uses the <a href="https://en.wikipedia.org/wiki/M-PHY">M-PHY</a>, developed by the <a href="https://en.wikipedia.org/wiki/MIPI_Alliance">MIPI Alliance</a>, a high speed
+serial interface targeting 2.9 Gbit/s per lane with up-scalability to 5.8
+Gbit/s per lane. UFS implements a full-duplex serial <a href="https://en.wikipedia.org/wiki/LVDS">LVDS</a> interface that scales better to
+higher bandwidths than the 8-lane parallel interface of eMMCs. Unlike eMMC,
+Universal Flash Storage is based on the <a href="https://en.wikipedia.org/wiki/SCSI_architectural_model">SCSI architectural
+model</a> and supports <a href="https://en.wikipedia.org/wiki/Tagged_Command_Queuing">SCSI Tagged Command
+Queuing</a>.</font></p>
+<p><strong>Why its so Fast?</strong></p>
+<p>At a high-level, UFS moves away from a parallel interface to
+differential-signaling serial interface, removing the performance and
+manufacturing/routing barriers inherent to eMMC.</p>
+<p>Due to the parallel 8-bit interface used for eMMC, read and write operations
+are sequential, or half-duplex. The new UFS 2.1 standard has dedicated read and
+write paths, allowing for full-duplex operation. Essentially, UFS 2.1 can read
+and write simultaneously.</p>
+<p><font size="3"><img src="images/eMMC_51_Parallel_Interface.png"></font></p>
+<p><font size="3"><img src="images/UFS_21_Serial_Interface.png"></font></p>
+<p><font size="3">The combination of the serial interface and full-duplex data
+transfers mean that UFS 2.1 can achieve two to four times the peak bandwidth of
+eMMC 5.1 and in a more power-efficient manner. There are already two iterations
+of UFS 2.1: high speed-gear2 allows for a peak bandwidth of 5.8 Gbps over two
+lanes, while high speed-gear3 has a peak bandwidth of up to 11.6 Gbps over two
+lanes.</font></p>
+<p><font size="3">UFS also utilizes Command Queue (CQ), similar to eMMC 5.1,
+allowing it to harness the multi-tasking features of mobile operating systems
+and multi-core CPUs. This feature allows multiple read and write commands to be
+executed by the UFS device in parallel, significantly increasing command
+processing speeds.</font></p>
+<p><font size="3"><strong>EasyJTAG Plus Box and UFS Memory</strong></font></p>
+<p><font size="3">EasyJTAG Plus box supports UFS memory connection and basic
+operations like. Identification, Multiple LUN access, Reading , Writing, and
+access to UFS Memory attributes, configs etc as well. Current operations speed
+is limited to 1.5Mb/sec and will be increased in next firmware versions.
+Minimal firmware for UFS access is 2.35. There is impossible to gain UFS
+support with old hardware revisions ( 1.xx firmwares ). UFS Functions did not
+requires any additional activation and available soon in EasyJAG Classic suite.
+For connecting UFS chip user need to buy an EasyJTAG UFS socket for necessary
+memory chip. Currently exists 3 BGA memory types</font></p>
+<ul>
+<li><font size="3">UFS BGA153 (Most common for all phones)</font></li>
+<li><font size="3">UFS BGA95 (Samsung Flagship phones)</font></li>
+<li><font size="3">UFS BGA254 ( UFS with PLDDR4 memory)</font></li>
+</ul>
+<p><font size="3"><br>
+<br>
+</font></p>
+<table class="box bottomline">
+<tbody>
+<tr>
+<th><a href="Interface.htm">Software Interface</a></th>
+</tr>
+</tbody>
+</table>
+<div id="nstext">
+<hr>
+</div>
+<div class="copyright"><font size="3"><em>Copyright (c) 2020</em> <a href="http://easy-jtag.com/" target="_blank"><em>EasyJtag</em></a> <em>by</em> <a href="https://z3x-team.com/" target="_blank"><em>Z3X-Team</em></a><em>. All
+Rights Reserved.</em></font></div>
+<p>&nbsp;</p>
+</body>
+</html>
+
